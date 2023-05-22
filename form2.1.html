@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        img src{
+            border: 2px solid black;
+        }
+        
+    
+    </style>
+</head>
+
+<body>
+    <h1>KEWALS TRAVEL AGENCY</h1>
+    
+    <img src="car.jpg" alt="error" width="300px"align="right" margine-right="10px">
+    
+    <div style="background-color:rgb(105, 255, 30);">
+    <div style="background-color:rgb(79, 255, 30);>
+        <form action="form2.1.html" aling="center">
+        <h2>Customer information form</h2>
+        <b>Please provide the following information so we can help with your travel needs</b><br>
+        <label for="Your name">Your name:</label><br>
+        <input type="text" name="name"placeholder="enter your name"><br>
+        <label for="Address">Address:</label><br>
+        <input type="text"name="Address" placeholder="enter your Address"><br>
+        <label for="Mobile no.">Mobile no:</label><br>
+        <input type="number"name="mobile"placeholder="mobile no."><br>
+        <label for="Comment">Comment:</label><br>
+        <textarea name="comment" id="comment" cols="20" rows="5"></textarea><br>
+        <label for="service">service:<br>
+        <input type="checkbox" name="Flight" value="Flight"id="service">Flight
+        <input type="checkbox" name="Hotel" value="Hotel"id="service">Hotel
+        <input type="checkbox" name="car" value="car"id="service">car <br>
+        </label>
+        <label for="REturning customer">Returning customer:</label><br>
+        <input type="radio" name="yes" value="yes" >yes
+        <input type="radio" name="yes" value="no" >no
+        <input type="radio" name="yes" value="maybe" >maybe <br>
+        <label for="Continet">continent:</label><br>
+        <select id="continent">
+            <option value="continent" aria-placeholder="choose">choose a continet</option>
+        <option value="Asia">Asia</option>
+        <option value="Africa">Africa</option>
+        <option value="america">america</option>
+    </select><br>
+    
+    <input type="submit" name="submit" id="submit">
+    <input type="reset" name="reset" id="reset"><br>
+    <a href="https://booking.com">Hotel Booking</a>
+
+        
+
+    </form>
+</div>
+    </div>
+
+</body>
+</html>
